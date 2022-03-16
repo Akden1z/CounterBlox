@@ -161,16 +161,4 @@ local function QHDX_fake_script() -- TextButton.LocalScript
 	end)
 end
 ----
-SURFACE GUI PROPERTIES ---
-SurfaceGui.Parent = parent
-SurfaceGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-SurfaceGui.Face = Enum.NormalId[face]
-SurfaceGui.LightInfluence = 0
-SurfaceGui.ResetOnSpawn = false
-SurfaceGui.Name = name
-SurfaceGui.AlwaysOnTop = true
-
-FRAME PROPERTIES ---- 
-Frame.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
-Frame.Size = UDim2.new(1,0,1,0)
 ---- Welcome ----
